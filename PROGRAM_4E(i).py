@@ -1,0 +1,15 @@
+components1={'Engine','Chassis','Transmission'}
+components2={'Steering','Tire','Engine'}
+print(components1)
+print(components2)
+components1.add('Gearbox')
+print(components1)
+components1.remove('Gearbox')
+print(components1)
+print(components1 | components2)
+print(components2.union(components1))
+print(components1 & components2)
+print(components1.intersection(components2))
+print(components1 - components2)
+print(components2.difference(components1))
+print(components1 ^ components2)

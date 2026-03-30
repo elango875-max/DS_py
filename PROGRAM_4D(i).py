@@ -1,0 +1,15 @@
+language1={'C','C++','JAVA'}
+language2={'VB','PYTHON','ORACLE','JAVA'}
+print(language1)
+print(language2)
+language1.add('SQL')
+print(language1)
+language1.remove('SQL')
+print(language1)
+print(language1 | language2)
+print(language2.union(language1))
+print(language1 & language2)
+print(language1.intersection(language2))
+print(language1 -language2)
+print(language2.difference(language1))
+print(language1 ^ language2)

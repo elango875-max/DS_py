@@ -1,0 +1,15 @@
+elements1={'columns','roof', 'stair','floors'}
+elements2={'foundation','floors','walls'}
+print(elements1)
+print(elements2)
+elements1.add('beams')
+print(elements1)
+elements1.remove('beams')
+print(elements1)
+print(elements1 | elements2)
+print(elements2.union(elements1))
+print(elements1 & elements2)
+print(elements1.intersection(elements2))
+print(elements1 - elements2)
+print(elements2.difference(elements1))
+print(elements1 ^ elements2)
